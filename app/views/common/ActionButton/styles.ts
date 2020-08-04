@@ -7,7 +7,7 @@ const BUTTON_SIZE = dimension.fullWidth * 0.15
 const ITEM_BUTTON_SIZE = BUTTON_SIZE * 0.35
 
 const OFFSET_X = dimension.fullWidth * 0.065
-const OFFSET_Y = dimension.fullHeight * 0.07
+const OFFSET_Y = dimension.fullHeight * 0.055
 
 export default StyleSheet.create({
   container: {

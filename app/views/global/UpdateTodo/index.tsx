@@ -25,8 +25,8 @@ const UpdateTodo = ({
   editTodo,
   removeTodo
 }: UpdateTodoProps) => {
-  const [title, setTitle] = useState(item.title)
-  const [description, setdescription] = useState(item.description)
+  const [title, setTitle] = useState(item.title || '')
+  const [description, setdescription] = useState(item.description || '')
   const [dueDate, setDueDate] = useState(item.dueDate || '')
   const [completed, setCompleted] = useState(getCompletedValue(item.status))
   const navigation = useNavigation<UpdateTodoSceneProps['navigation']>()

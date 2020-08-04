@@ -21,9 +21,9 @@ const DateInput = ({ label, value, onChangeValue }: DateInputProps) => {
   const hideDatePicker = () => setShowPicker(false)
 
   const handleChange = (date: Date) => {
+    hideDatePicker()
     const dateStr = moment(date).toISOString()
     onChangeValue(dateStr)
-    hideDatePicker()
   }
 
   return (

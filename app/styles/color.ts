@@ -12,5 +12,7 @@ export const color = {
   line: '#C2C2C2',
   lineLight: '#E2E2E2',
   background: white,
-  error: '#E12A2A'
+  error: '#E12A2A',
+  // misc
+  androidStatusBar: '#f0f0f0'
 }
