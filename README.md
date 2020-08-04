@@ -21,7 +21,11 @@ If you have an Android device, you can also install the release [apk file](https
 - All tasks are persisted throughout app session
 
 # App Demo
+
 https://vimeo.com/444395136
+
+<img src="https://github.com/anguyen1817/todo/blob/master/files/screenshot.png?raw=true" width="300" />
+
 
 # Technical details
 ## Code structure
